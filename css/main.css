@@ -1,0 +1,115 @@
+body{
+    margin:0;
+    font-family: "Poppins", sans-serif;
+    font-size: 16pt;
+
+}
+
+  @font-face {
+        font-family: "Myth";
+        src: url("../assets/fonts/mythology_of_egypt/Mythology\ Of\ Egypt.otf");
+    }
+
+    .navFlex{ width: 85%;
+                height: 80px;
+        
+        
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+       
+
+        padding: 20px 40px;
+        background-color: #ffffffa4;
+        
+        border: none;
+        border-radius: 25pt;
+
+        color: rgb(64, 64, 64);
+
+       
+}
+
+.navFlex{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.navFlex a{
+    text-decoration: none;
+    color: rgb(67, 67, 67);
+    font-weight: 530;
+
+}
+
+.hero{
+    display: flex;
+    flex-direction:column ;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+
+    height: 80vh;
+    
+    background-size: cover;
+    background-repeat: none;
+    text-align: center;
+
+    color: rgb(197, 223, 246);
+    
+    
+}
+
+.pageTitle{
+font-family: "Myth", sans-serif;
+font-size: 96px;
+letter-spacing: 2px;
+color: #e9ad1c;
+}
+
+.aboutp{
+position: relative;
+top: 25%;
+}
+
+.searchItem{
+    background-color: #ffffff81;
+    border: none;
+
+}
+
+.bar{
+    border-right: solid #f1f1f1
+
+}
+
+.search{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+background-color: #ffffff;
+height: 55%;
+border-radius: 10px;
+padding-left: 10px;
+padding-right: 10px;
+
+}
+
+.logo {
+    align-self: center;
+  
+
+}
+
+.main-wrapper{background-image: url(../assets/img/homeHeader.png);
+    
+}
+
+.search{
+
+    height: 50px;
+}
+
