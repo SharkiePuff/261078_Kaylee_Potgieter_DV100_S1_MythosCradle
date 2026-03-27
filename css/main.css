@@ -138,7 +138,7 @@ padding-right: 10px;
     background-size: cover;
     background-repeat: no-repeat;
 
-    padding-top: 2em;
+    
 }
 
 .search{
@@ -238,6 +238,7 @@ border-radius: 13px;
 padding: 20px 60px;
 color: #ffffff;
 font-weight: 600;
+border: none;
 
 }
 
@@ -476,7 +477,7 @@ hr.footerHr{
     background-image: url(../assets/img/adoptHeader.png) ;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 40vh;
+    height: 45vh;
 }
     
 
@@ -502,3 +503,567 @@ nav {
 padding-top: 2em;
     z-index: 30;
 }
+
+
+
+.adoptSubheading h2{
+
+font-family:"Metamorphous",sans-serif;
+color:#e9ad1c;
+font-weight: 500;
+font-size: 30pt;
+
+padding-top: 40pt;
+}
+
+
+.adoptSubheading{
+
+text-align: center;
+
+}
+
+
+.adoptSubheading p{
+
+padding: 40pt;
+padding-top: 15pt;
+padding-bottom: 70pt;
+
+font-size: 16pt;
+font-weight: 300;
+
+}
+
+.yellow{
+    background-color: #e9ad1c;
+}
+
+
+
+.filterContainer{
+height: 12vh;
+background-color: #e9ad1c;
+background-size: cover;
+ background-position: center;
+  background-repeat: none;
+color:#fff;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+ align-items: center;
+
+}
+
+.filterLeft{ margin-left: 100px;
+     margin-top: 0px; display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+
+
+
+
+.filterContainer{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    gap: 40%;
+}
+
+.filterLeft{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding: 3pt;
+    gap: 1pt;
+
+    padding-top: 0%;
+    padding-bottom: 0%;
+        
+
+
+
+}
+
+.filterLeftContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding: 10%;
+    gap: 5%;
+
+    padding-top: 0%;
+    padding-bottom: 0%;
+        
+}
+
+.filterItem i{
+
+   color: white;
+}
+
+.filterItem h5{
+    font-size: 20pt;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.filterItem p{
+    display: flex;
+    flex-direction: row;
+    font-size: medium;
+    
+}
+
+.filterItem{
+    font-size: larger;
+    color: #15d5f5;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#makeRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.filterRight p{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    text-align: right;
+}
+
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    gap: 10%;
+}
+
+.simpleRowFlex{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+gap: 4em;
+
+}
+
+.blue{
+background-color: #2f1087;
+color: azure;
+}
+.flex2Col{
+width: 70%;
+
+}
+
+.flexContainerTop{
+ display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 7%;
+    gap:4%;
+
+}
+
+i{
+    color:#e9ad1c;
+}
+
+
+.flex2Col h1{
+    font-weight: 700;
+}
+
+.cartItems{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    width: 100pt;
+    height: 50pt;
+    background-color:#002d68;
+
+    padding-left: 15pt;
+    border-radius: 7pt;
+}
+
+.cartItems button{
+background-color: none;
+border: none;
+}
+
+.flexContainerTop p{
+
+    color: black;
+}
+
+.simpleRowFlex p{
+color: rgb(165, 165, 165);
+font-size: larger;
+font-weight: 500;
+
+display: inline-flex;
+}
+
+.thinAdopt p{
+
+    font-weight: 200;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.thinAdopt{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8pt;
+    
+}
+
+.belowPrice{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10%;
+    gap: 10%;
+
+}
+
+.lineHeight p{ 
+    font-size:xx-large;
+
+}
+
+.friendly p{
+
+    font-size: medium;
+}
+
+.numberContainer{
+
+    width:30pt;
+    border: none;
+    background-color: #f6f6f600;
+    color: #ffffff;
+    text-align: center;
+}
+
+.symbol{
+
+    border: none;
+    background-color:#46454500;
+    color: #ffffff;
+    padding-right: 15pt;
+}
+
+.description{
+
+font-size: 13pt;
+padding-bottom: 40pt;
+}
+
+.cartButtons{
+    display: flex;
+    flex-direction: row;
+
+    gap: 20pt;
+}
+
+.blueCradle {
+    background-color: #15d5f5;
+border-radius: 13px;
+padding: 20px 60px;
+color: #ffffff;
+font-weight: 600;
+border: none;
+height: 50pt;
+}
+
+hr.adoptHr{border: none;
+     width: 100%;
+     height: 2.5px;
+     background-color: #d5d5d5;
+     margin: auto;
+     margin-top: 50px;
+    
+     
+}
+
+.flexCol{
+ 
+    
+   display: flex;
+    flex-direction: row;
+    
+   padding-top: 40pt;
+    gap: 4%;
+}
+
+.flexRow{
+    font-size: medium;
+   color: #bcb9b9;
+}
+
+.petItem{
+
+
+    padding-bottom: 10pt;
+}
+
+.itemDescription{
+
+     padding-bottom: 10pt;
+}
+
+#whiteH h1{
+    color: #ffffff;
+}
+#whiteH p{
+    color: #ffffff;
+}
+
+#lightBlue p{
+    color: #15d5f5;
+}
+
+.cartItemsYellow{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    width: 100pt;
+    height: 50pt;
+    background-color:#e9ad1c;
+
+    padding-left: 15pt;
+    border-radius: 7pt;
+}
+
+.cartItemsYellow button{
+background-color: none;
+border: none;
+}
+
+hr.adoptHrLight{border: none;
+     width: 100%;
+     height: 2.5px;
+     background-color: #ffffff;
+     margin: auto;
+     margin-top: 50px;
+    
+     
+}
+
+.vcContainer{
+
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-content: flex-end;
+
+margin-right: 0%;
+padding-right:0px;
+padding-top: 7em;
+
+}
+
+.viewCradle{
+    background-color:#e9ac1cd1;
+border-radius: 13px;
+padding: 20px 60px;
+color: #ffffff;
+font-weight: 600;
+border: none;
+height: 50pt;
+width:200pt;
+}
+
+
+.contactWrapper{
+
+background-image: url(../assets/img/contactHeader.png);
+
+background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+
+.contactHeading h1{
+display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 60pt;
+    color: #ffffff;
+}
+
+.about p{
+    font-size: large;
+    color: rgba(0, 0, 0, 0.352);
+}
+
+.about h5{
+    color: #15d5f5;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.about h2{
+
+    color: rgb(33, 21, 71);
+}
+
+
+.flexContainerContact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    gap: 5%;
+}
+
+
+
+.contactContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.contactInfo, .contactForm{
+width: 44%;
+padding: 20px;
+}
+
+.contactForm form{
+padding: 25px;
+gap: 10px;
+background-image:url(../assets/img/formBackground.png);
+border-radius: 25px;
+}
+
+.formElement{
+
+    width: 100%;
+    padding: 20px;
+    color: #ffffff;
+    font-size: medium;
+}
+
+.contactForm input,
+.contactForm select,
+.contactForm textarea{
+ width: 95%;
+ padding: 17px 12pt;
+ 
+ border: 1px solid #60aee5;
+ border-radius: 10px;
+font-family: 'Poppins';
+
+}
+
+.formElement label{
+
+    padding-bottom: 1em;
+}
+
+
+
+.contactForm button{
+padding: 12px;
+background-color: #15d5f5;
+color: #ffffff;
+font-weight: 700;
+font-size: medium;
+border: none;
+cursor: grabbing;
+margin-left: 20px;
+margin-bottom: 15px;
+border-radius:10px;
+width: 12em;
+height: 3.5em;
+}
+
+
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    gap: 10%;
+}
+
+.simpleRowFlex{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+gap: 4em;
+
+}
+
+iframe{
+
+    border-radius: 20pt;
+}
+
+.contactInfo h5{
+
+    color: #15d5f5;
+    font-weight: 500;
+}
+
+.contactInfo h2{
+
+    color:rgb(33, 21, 71);
+    font-size: 28pt;
+}
+
+.mediaLinksContact{
+
+display: flex;
+    flex-direction:row;
+    justify-content: left;
+    align-items: center;
+   gap: 2%;
+    
+    padding-top: 15pt;
+
+    padding-bottom: 5em;
+}
+.mediaLinksContact img{
+
+    height: 4em;
+}
+
+.formTitle{
+
+    font-size: 30pt;
+    font-weight: 700;
+    padding: 15px;
+   color: #ffffff;
+}
+
