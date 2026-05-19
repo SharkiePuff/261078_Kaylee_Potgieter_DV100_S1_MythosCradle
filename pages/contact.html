@@ -35,12 +35,30 @@
 <div class="search">
     <button class="searchItem"><i class="fa-solid fa-magnifying-glass"></i></button>
     <input class="searchItem bar" type="search" placeholder="Search">
-    <button class ="searchItem"><i class="fa-solid fa-basket-shopping"></i></button>
+    <button class ="searchItem"><i class="fa-solid fa-basket-shopping" data-bs-toggle="modal" data-bs-target="#cartModal"></i></button>
 
 </div>
 
 </div>
 </nav>  
+
+<div class="modal" id="cartModal" tabindex="-1">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body outputContainer">
+        <p>Modal body text goes here.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 
         <section class="contactHeading">
         <h1 class="pageTitle">CONTACT US</h1>
@@ -126,8 +144,9 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10153.00945144565!2d28.209720497719783!3d-25.881622245963865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e956608911ce097%3A0x519896b4b6eda40a!2sOpen%20Window%20-%20Centurion!5e0!3m2!1sen!2sza!4v1773837820839!5m2!1sen!2sza" width="90%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
 
         </div>
+        
         <div class="contactForm">
-            <form>
+            <form name="contact">
                 <div class="formTitle">SEND US A MESSAGE</div>
 
                 <div class="formElement">
@@ -149,7 +168,29 @@
                     <textarea id="message" name="message" rows="3" placeholder="Hi! i’d like to ask about" ></textarea>
 
                 </div>
-                <button type="submit">Submit</button>
+                <button type="submit" data-bs-toggle="modal" data-bs-target="#thanksModal">Submit</button>
+               
+              
+              <div class="modal fade" id="thanksModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+                <div class="modal-dialog" >
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Hi </h1>
+                      
+                    </div>
+                    <div class="modal-body">
+                     <p>Thank you for your message.</p>
+                        <br>
+                      <p>Stay legendary!</p>
+                     
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      
+      </div>
+    </div>
+  </div>
+</div>
             </form>
         </div>
     </div>

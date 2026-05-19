@@ -17,8 +17,10 @@
 
 
 </head>
+
 <body>
 <div class="adopt-wrapper">
+
 <div class="filter">
 
   <nav>
@@ -36,12 +38,15 @@
 <div class="search">
     <button class="searchItem"><i class="fa-solid fa-magnifying-glass"></i></button>
     <input class="searchItem bar" type="search" placeholder="Search">
-    <button class ="searchItem"><i class="fa-solid fa-basket-shopping"></i></button>
+    <button class ="searchItem" data-bs-toggle="modal" data-bs-target="#cartModal"><i class="fa-solid fa-basket-shopping"></i></button>
 
 </div>
 
 </div>
+
 </nav>  
+
+
 <section class="adoptHeader">
 
 <h1 class="pageTitle">Adopt A creature</h1>
@@ -51,16 +56,32 @@
 
 </div>
 </div>
-
+<div class="modal" id="cartModal" tabindex="-1">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body outputContainer">
+        <p>Modal body text goes here.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 <section class="blue">
 <div class="adoptSubheading">
 
 <h2>Your journey with a little legend begins here.</h2>
 
-<p>Adopting a little legend doesn t cost a thing our focus is finding loving homes. To make their arrival extra special, you can choose
+<p>Adopting a little legend doesn't cost a thing our focus is finding loving homes. To make their arrival extra special, you can choose
 optional starter packages made just for your creature: tiny beds, treats, toys, and more. You can even get multiple packages if your
-legend will have indoor and outdoor spaces. After you complete your application, we ll arrange a magical meeting so you can see
-which creature is the perfect fit. We ve also included a beginners friendly rating with our creatures so that you can gauge if you are
+legend will have indoor and outdoor spaces. After you complete your application, we'll arrange a magical meeting so you can see
+which creature is the perfect fit. We have also included a beginners friendly rating with our creatures so that you can gauge if you are
 ready to make them a part of your family.</p>
 
 </div>
@@ -84,6 +105,7 @@ ready to make them a part of your family.</p>
 </div>
 </div>
 </section>
+
 
 
 <section>
@@ -615,9 +637,7 @@ ready to make them a part of your family.</p>
 
                 </div>
 
-<div class="vcContainer">
-              <button class="viewCradle">View Cradle</button>
-                </div>
+
               </div>
               
               </div>
@@ -626,11 +646,13 @@ ready to make them a part of your family.</p>
 
         </div>
 
- 
+            <div class="vcContainer">
+              <button class="viewCradle" data-bs-toggle="modal" data-bs-target="#cartModal">View Cradle</button>
+            </div>
+            
     </section>
 
 
-    
 
 
 
@@ -755,6 +777,7 @@ ready to make them a part of your family.</p>
     </div> 
   </p>
 </footer>
+
 
 
 

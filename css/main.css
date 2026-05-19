@@ -485,7 +485,7 @@ hr.footerHr{
     align-items: center;
 
     padding: 60pt;
-z-index: 30;
+     z-index: 30;
         color: #ffffff;
 }
 
@@ -498,7 +498,7 @@ z-index: 30;
 
 nav {
 padding-top: 2em;
-    z-index: 30;
+    /* z-index: 30; */
 }
 
 
@@ -615,7 +615,7 @@ margin-right: 80px;
 
 
 }
-.default p{s
+.default p{
 text-align: center;
     display: flex;
 flex-direction: row;
@@ -657,10 +657,6 @@ justify-content: center;
     padding: 0.5em;
 }
 
-#six{
-
-}
-
 .default{
 text-align: center;
     display: flex;
@@ -700,7 +696,7 @@ gap: 4em;
 }
 
 .blue{
-background-color: #2f1087;
+background-color: #002d68;
 color: azure;
 }
 .flex2Col{
@@ -912,19 +908,16 @@ hr.adoptHrLight{border: none;
 
 .vcContainer{
 
-display: flex;
-flex-direction: row;
-justify-content: flex-end;
-align-content: flex-end;
+position: fixed;
+bottom: 40px;
+right: 20px;
 
-margin-right: 0%;
-padding-right:0px;
-padding-top: 7em;
+
 
 }
 
 .viewCradle{
-    background-color:#e9ac1cd1;
+    background-color:#e9ac1c;
 border-radius: 13px;
 padding: 20px 60px;
 color: #ffffff;
@@ -1112,3 +1105,17 @@ display: flex;
    color: #ffffff;
 }
 
+.modal-content{
+
+background-color: #002d68
+
+}
+
+
+.exampleModalLabel{
+
+font-family: "Myth", 
+sans-serif;
+color: #e9ad1c;
+
+}
