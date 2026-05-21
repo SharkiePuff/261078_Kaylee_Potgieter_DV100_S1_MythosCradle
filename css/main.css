@@ -371,6 +371,7 @@ display: flex;
 
     padding: 90px;
 
+    
 }
 
 .successButton button{
@@ -817,7 +818,7 @@ padding-bottom: 40pt;
 .cartButtons{
     display: flex;
     flex-direction: row;
-
+   
     gap: 20pt;
 }
 
