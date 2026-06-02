@@ -18,7 +18,21 @@
 function incCount(inputId){
 
  let count = document.getElementById(inputId).value;
-    count ++ ;
+ if( count< 10){
+    count ++ ;}
     document.getElementById(inputId).value = count;
 }
+
+
+//const container = document.getElementById('adoptCard-container');
+
+//const card = document.createElement('div');
+//card.classList.add('adoptCartCard');
+
+//card.innerHTML=`
+//<img src="../assets/img/adopt1.png" class = "cartImg">
+
+
+
+`
 

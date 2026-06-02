@@ -70,18 +70,35 @@ input[type=number] {
 </div>
 </div>
 <div class="modal" id="cartModal" tabindex="-1">
-  <div class="modal-dialog modal-fullscreen">
+  <div class="modal-dialog modal-fullscreen modal-dialog-scrollable">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">Modal title</h5>
+        <h5 class="modal-title">Welcome to your cart!</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body outputContainer">
-        <p>Modal body text goes here.</p>
+      <div class="modal-body outputContainerCart">
+
+        <div class="cartCard">
+
+            <div class="cartContentLeft">
+            <div class="cartName">Blue Dragon – Azuron</div>
+            <div class="cartImg"><img src="../assets/img/adopt1.png"></div>
+            </div>
+
+            <div class="cartContentRight">
+
+                
+                <button class="blueCradle">Delete</button>
+              </div>
+
+            </div>
+
+        </div>
+
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continue searching</button>
+        <button type="button" class="btn btn-primary">Finish adoption</button>
       </div>
     </div>
   </div>
@@ -797,3 +814,6 @@ ready to make them a part of your family.</p>
 
 
 </html>
+
+
+
