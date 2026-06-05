@@ -1149,11 +1149,26 @@ font-family:"Metamorphous",sans-serif;
 font-weight: 800;
 }
 
-.cartContentLeft{
+.cartTitle{
 
     display: flex;
-    flex-direction:column;
-    justify-content: left;
+    flex-direction:row;
+    justify-content: top;
+    align-items: left;
+
+    color:#002d68;
+
+    font-family:"Metamorphous",sans-serif;
+    font-weight: 800;
+    font-size: larger;
+
+}
+
+.cardContent{
+
+    display: flex;
+    flex-direction:row;
+    justify-content: right;
     align-items: center;
     gap: 1em;
 
@@ -1163,12 +1178,75 @@ font-weight: 800;
 
     display: flex;
     flex-direction:row;
-    justify-content: left;
+    justify-content: right;
     align-items: bottom;
 
 }
 
-.adoptCartCard{
+.cardElement{
+
+flex-direction:column;
+    justify-content: bottom;
+    align-items: bottom;
+   gap: 5%;
+    
+    
+    padding-bottom: 5em;
+
+}
 
 
+.img img{
+
+    height: 200pt;
+}
+
+.modal-content{
+
+    padding-right:30pt;
+}
+
+.dltbtn{
+
+    background-color: #e9ad1c;
+border-radius: 13px;
+padding: 20px 60px;
+color: #ffffff;
+font-weight: 600;
+border: none;
+
+}
+
+.bluebtn{
+
+     background-color:#002d68;
+     height: 35pt;
+}
+
+.yellowbtn{
+background-color: #e9ad1c;
+font-weight: 600;
+height: 40pt;
+padding-left: 10pt;
+padding-right: 10pt;
+}
+
+.img{
+    display: flex;
+    flex-direction:row;
+    padding-left: 20pt;
+    gap: 15pt;
+
+}
+
+.modal-footer{
+display: flex;
+    flex-direction:column;
+    justify-content: right;
+    align-items: right;
+}
+
+.modal-body p{
+
+    color: #002d68;
 }

@@ -20,13 +20,9 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-/* Firefox */
-input[type=number] {
-  -moz-appearance: textfield;
-}
 </style>
 
-<link rel="stylesheet"href="../css/main.css">
+<link rel="stylesheet" href="../css/main.css">
 
 
 </head>
@@ -51,7 +47,7 @@ input[type=number] {
 <div class="search">
     <button class="searchItem"><i class="fa-solid fa-magnifying-glass"></i></button>
     <input class="searchItem bar" type="search" placeholder="Search">
-    <button class ="searchItem" data-bs-toggle="modal" data-bs-target="#cartModal"><i class="fa-solid fa-basket-shopping"></i></button>
+    <button class ="searchItem" data-bs-toggle="modal" data-bs-target="#cartModal" ><i class="fa-solid fa-basket-shopping"></i></button>
 
 </div>
 
@@ -76,19 +72,19 @@ input[type=number] {
         <h5 class="modal-title">Welcome to your cart!</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body outputContainerCart">
+      <div class="modal-body outputContainerCart" id="adoptContainer">
 
-        <div class="card">
+        <div class="cardElement1">
 
             
         </div>
 
         </div>
-
+        <div class="modal-footer"></div>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continue searching</button>
-        <button type="button" class="btn btn-primary">Finish adoption</button>
+      
+        <button type="button" class="btn btn-secondary bluebtn" data-bs-dismiss="modal">Continue searching</button>
+        <button type="button" class="btn btn-primary yellowbtn">Finish adoption</button>
       </div>
     </div>
   </div>
@@ -128,7 +124,7 @@ ready to make them a part of your family.</p>
 
 
 
-<section>
+<section id="0">
         <div class="flexContainerTop">
             <div class="flex2Col">
                 <img src="../assets/img/adopt1.png" width="90%">
@@ -163,10 +159,10 @@ ready to make them a part of your family.</p>
                 <div class="cartButtons">
                 <div class="cartItems">
                 <button class="symbol" onclick="decCount('azuronInput')" >-</button>
-                <input type="number" class="numberContainer" id="azuronInput">
+                <input type="number" class="numberContainer input1" id="azuronInput">
                 <button class="symbol" onclick="incCount('azuronInput')">+</button>
                 </div>
-                <button class="blueCradle addCradle" onclick="addCard('azuronInput)">Add to Cradle</button>
+                <button class="blueCradle addCradle" onclick="addToCart()">Add to Cradle</button>
               </div>
 
               <hr class="adoptHr">
@@ -219,7 +215,7 @@ ready to make them a part of your family.</p>
 
 
 
-<section class="blue">
+<section class="blue" id="1">
         <div class="flexContainerTop">
             <div class="flex2Col">
                 <img src="../assets/img/adopt2.png" width="90%">
@@ -254,7 +250,7 @@ ready to make them a part of your family.</p>
                 <div class="cartButtons">
                 <div class="cartItemsYellow">
                 <button class="symbol" onclick="decCount('yukiInput')">-</button>
-                <input type="number" class="numberContainer" id="yukiInput">
+                <input type="number" class="numberContainer input2" id="yukiInput">
                 <button class="symbol" onclick="incCount('yukiInput')">+</button>
                 </div>
                 <button class="blueCradle">Add to Cradle</button>
@@ -308,7 +304,7 @@ ready to make them a part of your family.</p>
 
     </section>
 
-<section>
+    <section id="2">
         <div class="flexContainerTop">
             <div class="flex2Col">
                 <img src="../assets/img/adopt3.png" width="90%">
@@ -342,7 +338,7 @@ ready to make them a part of your family.</p>
                 <div class="cartButtons">
                 <div class="cartItems">
                 <button class="symbol" onclick="decCount('aureliaInput')">-</button>
-                <input type="number" class="numberContainer" id="aureliaInput">
+                <input type="number" class="numberContainer input3" id="aureliaInput">
                 <button class="symbol" onclick="incCount('aureliaInput')">+</button>
                 </div>
                 <button class="blueCradle">Add to Cradle</button>
@@ -397,7 +393,7 @@ ready to make them a part of your family.</p>
     </section>
 
 
-<section class="blue">
+    <section class="blue" id="3">
         <div class="flexContainerTop">
             <div class="flex2Col">
                 <img src="../assets/img/adopt4.png" width="90%">
@@ -433,7 +429,7 @@ ready to make them a part of your family.</p>
                 <div class="cartButtons">
                 <div class="cartItemsYellow">
                 <button class="symbol"onclick="decCount('luminaInput')">-</button>
-                <input type="number" class="numberContainer" id="luminaInput">
+                <input type="number" class="numberContainer input4" id="luminaInput">
                 <button class="symbol" onclick="incCount('luminaInput')">+</button>
                 </div>
                 <button class="blueCradle">Add to Cradle</button>
@@ -487,7 +483,7 @@ ready to make them a part of your family.</p>
 
     </section>
 
-<section>
+    <section id="4">
         <div class="flexContainerTop">
             <div class="flex2Col">
                 <img src="../assets/img/adopt5.png" width="90%">
@@ -522,7 +518,7 @@ ready to make them a part of your family.</p>
                 <div class="cartButtons">
                 <div class="cartItems">
                 <button class="symbol" onclick="decCount('starwindInput')">-</button>
-                <input type="number" class="numberContainer" id="starwindInput">
+                <input type="number" class="numberContainer input5" id="starwindInput">
                 <button class="symbol"onclick="incCount('starwindInput')">+</button>
                 </div>
                 <button class="blueCradle">Add to Cradle</button>
@@ -576,7 +572,7 @@ ready to make them a part of your family.</p>
 
     </section>
 
-<section class="blue">
+    <section class="blue" id="5">
         <div class="flexContainerTop">
             <div class="flex2Col">
                 <img src="../assets/img/adopt6.png" width="90%">
@@ -612,7 +608,7 @@ ready to make them a part of your family.</p>
                 <div class="cartButtons">
                 <div class="cartItemsYellow">
                 <button class="symbol" onclick="decCount('briarInput')">-</button>
-                <input type="number" class="numberContainer" id="briarInput">
+                <input type="number" class="numberContainer input6" id="briarInput">
                 <button class="symbol" onclick="incCount('briarInput')">+</button>
                 </div>
                 <button class="blueCradle">Add to Cradle</button>
@@ -671,11 +667,6 @@ ready to make them a part of your family.</p>
             </div>
             
     </section>
-
-
-
-
-
 
 <footer>
 
@@ -801,10 +792,4 @@ ready to make them a part of your family.</p>
 
 <script src="../js/scripts.js"></script>
 </body>
-
-
 </html>
-
-
-
-
